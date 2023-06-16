@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <title>Cloud Computing Track</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="../assets/images/VC-Primary-Coated-4c.jpg" width="300px">
+            <h3>Computing Technology and Software Development</h3>
+        </div>
+
+        <h1>Cloud Computing Concentration</h1>
+
+        <div>
+            <ul class="navBar">
+                <li class="navBarElement">
+                    <a class="navBarLink" href="https://catalog.valenciacollege.edu/degrees/bachelorofscience/computingtechnologyandsoftwaredesign/">BASCTSD</a>
+
+                </li>
+                <li class="navBarElement">
+                    <p>Computing Concentration</p>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <p>
+                <!-- The following is from the Valencia website. -->
+                The Cloud Computing concentration is designed to help students excel in cloud computing in the areas of architecting, development, and systems administration. Project-based courses allow students to apply industry practices and prepare students for a career in the cloud field. Students will gain experience through critical thinking, problem solving, teamwork and communication of ideas. 
+                <!-- This was the text before:
+                In Valencia's BASCTSD Cloud Computing concentration, students will learn how to leverage the power of cloud computing to...
+                -->
+            </p>
+            <p>
+                Concentration-specific classes include:
+            </p>
+            <ul>
+                <li>
+                    <a class="classTitle" href="/cloud-computing-page/class-pages/cloud-management-and-design.html">3083C Cloud Management and Design</a>
+                </li>
+                <li>
+                    CIS 3080C Cloud Administrator Essentials
+                </li>
+                <li>
+                    CIS 3641 Cloud Developer Essentials
+                </li>
+                <li>
+                    CIS 3652 Cloud Data Analytics Essentials
+                </li>
+                <li>
+                    CTS 3700 Data Center Operations Essentials
+                </li>
+                <li>
+                    CAP 3612 Machine Learning Essentials
+                </li>
+            </ul>
+        </div>
+
+        <div id="infoBar">
+            <p>
+                Have questions?
+            </p>
+            <div>
+                <a href="informationRequestForm.html">REQUEST INFORMATION</a>
+            </div>
+        </div>
+
+        <div>
+            <h3>Student Projects</h3>
+
+            <div id="projectSlider">
+                <div>
+                    <img src="../assets/images/Project_Sample.jpg" height="150px" width="150px">
+                    <h4>Project 1</h4>
+                    <p>
+                        Short description goes here
+                    </p>
+                    <button>LEARN MORE</button>
+                </div>
+
+                <div>
+                    <img src="../assets/images/Project_Sample.jpg" height="150px" width="150px">
+                    <h4>Project 2</h4>
+                    <p>
+                        Short description goes here
+                    </p>
+                    <button>LEARN MORE</button>
+                </div>
+
+                <div>
+                    <img src="../assets/images/Project_Sample.jpg" height="150px" width="150px">
+                    <h4>Project 3</h4>
+                    <p>
+                        Short description goes here
+                    </p>
+                    <button>LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#projectSlider').slick({
+                dots: false,
+                infinite: true,
+                prevArrow: false,
+                nextArrow: false,
+                autoPlay: true,
+                speed: 500,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        });
+        
+    </script>
+</body>
+</html>
